@@ -1,0 +1,126 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(72, 255, 0);
+    align-items: center;
+    color:#fff;
+    padding: 0 12px;
+    position: relative;
+    word-spacing: 3px;
+    height: 100px;
+    
+}
+header button{
+    background-color: gold;
+}
+header .a{background-color: #fff;
+    
+            color: gold;
+            text-decoration:none;
+            text-shadow: #000;
+        box-sizing: border-box;
+        border-radius: 15rem;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        
+
+        }
+ header button{
+                width: 170px;
+                height: 50px;
+                border-radius: 10px;
+                border-color:blue;
+                border-width: 0.5rem;
+ }       
+
+header nav{ background-color: rgba(114, 182, 105, 0.747);
+position: absolute;
+top: 100%;
+ width: 100vw;
+ height: 60vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0;
+ margin: 0%;
+ 
+
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 0px;
+
+
+
+
+}
+
+
+.bars{background-color: white;padding: 8px;display: flex;
+    flex-direction: column;justify-content: space-between;align-items: center;
+}
+.bars .lines{ 
+    height: 2px;
+    width: 30px;
+    background: #000;
+    border: 5px;
+}
+.lines{transition: all .5s ease-in-out;}
+
+.lines:nth-last-of-type(2){margin: 3px;}
+
+.open .lines:nth-of-type(1){
+    transition: all .5s ease;
+    transform: rotate(50deg);
+}
+
+.open .lines:nth-of-type(2){
+    opacity: 0;
+}
+
+.open .lines:nth-of-type(3){
+    transition: all .5s ease;
+    transform: rotate(-45deg);
+    top: -8px;
+    position: relative;
+}
+
+nav{
+    opacity: 0;
+}
+
+nav.open{
+    opacity: 1;
+}
+
+.he h1{ justify-content: center;
+        align-self: center;
+        align-items: center;
+        display: flex;
+        font-size: 50px;
+        color: gold;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: blue;
+        font-weight: bolder;
+
+}
+.he{margin-top: 3rem;
+background-color: rgba(177, 230, 177, 0.356);}
+.he .row img {
+            height: 400px;
+            width: 350px;
+        
+            margin-right: 10rem; 
+            margin-left: 3rem;
+            border:solid 10px lime ;
+            border-radius: 8px;  
+            justify-content: center;
+            
+}
+
